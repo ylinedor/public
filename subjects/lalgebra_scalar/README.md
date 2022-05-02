@@ -11,6 +11,7 @@ After finishing completing the declaration of the trait, implement the `Scalar` 
 ### Notions
 
 - [Module std::ops](https://doc.rust-lang.org/std/ops/index.html)
+- [Module std::marker::Sized](https://doc.rust-lang.org/std/marker/trait.Sized.html)
 
 ### Expected Function (The signature must be completed)
 

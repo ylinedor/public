@@ -8,7 +8,7 @@ Start by copying the data representation of the blood types:
 
 - Create the enum `Antigen` that has 4 possibilities: A, B, O and AB And the enum `RhFactor` that has two possible values: Positive and Negative
 
-- After, copy the struct `BloodType` that contains two fields with the names antigen and rh_factor
+- After, create the struct `BloodType` that contains two fields with the names antigen and rh_factor
 
 - To provide a simple way to create blood types implement the trait FromStr for BloodType (which will allow us to use the `parse` method and the associated function from_str, so we can do:
 
@@ -52,12 +52,6 @@ pub struct BloodType {
 use std::cmp::{Ord, Ordering};
 
 use std::str::FromStr;
-
-impl FromStr for Antigen {
-}
-
-impl FromStr for RhFactor {
-}
 
 impl Ord for BloodType {
 }
